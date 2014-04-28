@@ -1,0 +1,163 @@
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+Running in folder: C:\manips\reversal_BEBG\psychtoolbox
+Running on machine: HPC3F9
+PARTICIPANT INFORMATION:
+
+            date: '20140331-1734'
+        hostname: 'HPC3F9'
+      identifier: 'TEST'
+         session: 1
+    session_name: 'comportementpreop'
+           flags: [1x1 struct]
+
+             with_training: 1
+      with_response_lumina: 1
+       with_response_mouse: 0
+    with_response_keyboard: 1
+             with_triggers: 1
+           with_eyetracker: 1
+            starting_block: 1
+
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+
+=======================================
+======= START OF THE EXPERIMENT =======
+=======================================
+
+Data folder should be: C:\manips\reversal_BEBG\..\data\TEST
+INFO: Initial invocation of the PsychHID mex file failed.
+INFO: Most likely a required DLL is not installed in your system, e.g., libusb-1.0.dll
+INFO: I will now check if this is the culprit and work around it. To avoid future warnings,
+INFO: please copy the 32-Bit libusb-1.0.dll from the PsychContributed folder into your C:\WINDOWS\system32\ 
+INFO: folder or - on a 64-Bit Windows setup into the C:\WINDOWS\SysWOW64\ - 
+INFO: folder or a similarly appropriate place. You can get a fresher copy of libusb-1.0.dll from 
+INFO: http://libusb.org/wiki/windows_backend if you want to stay up to date.
+INFO: Retrying now, may fail...
+  <a href="matlab:help MException">MException</a>
+
+  Properties:
+    identifier: 'reversal:MissingDataFolder'
+       message: 'Missing data folder! C:\manips\reversal_BEBG\..\data\TEST
+'
+         cause: {0x1 cell}
+         stack: [5x1 struct]
+
+  <a href="matlab:methods('MException')">Methods</a>
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('reversal_MEG>reversal_passation', 'C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m', 259)" style="font-weight:bold">reversal_MEG>reversal_passation</a> (<a href="matlab: opentoline('C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m',259,0)">line 259</a>)
+Missing data folder! C:\manips\reversal_BEBG\..\data\TEST
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('reversal_MEG>reversal_restart', 'C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m', 189)" style="font-weight:bold">reversal_MEG>reversal_restart</a> (<a href="matlab: opentoline('C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m',189,0)">line 189</a>)
+        [Passation,Passation.ErrorMsg] = reversal_passation(participant);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('reversal_MEG>reversal_start', 'C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m', 117)" style="font-weight:bold">reversal_MEG>reversal_start</a> (<a href="matlab: opentoline('C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m',117,0)">line 117</a>)
+Passation = reversal_restart(participant);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('reversal_MEG', 'C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m', 4)" style="font-weight:bold">reversal_MEG</a> (<a href="matlab: opentoline('C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m',4,0)">line 4</a>)
+    varargout=reversal_start;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('run', 'C:\Program Files\MATLAB\R2011b\toolbox\matlab\lang\run.m', 57)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2011b\toolbox\matlab\lang\run.m',57,0)">line 57</a>)
+          evalin('caller', [s ';']);
+} 
+run('C:\manips\reversal_BEBG\psychtoolbox\reversal_MEG.m')
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+Running in folder: C:\manips\reversal_BEBG\task\psychtoolbox
+Running on machine: HPC3F9
+PARTICIPANT INFORMATION:
+
+            date: '20140331-1735'
+        hostname: 'HPC3F9'
+      identifier: 'TEST'
+         session: 2
+    session_name: 'megpreop'
+           flags: [1x1 struct]
+
+             with_training: 1
+      with_response_lumina: 1
+       with_response_mouse: 0
+    with_response_keyboard: 1
+             with_triggers: 1
+           with_eyetracker: 1
+            starting_block: 1
+
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+
+=======================================
+======= START OF THE EXPERIMENT =======
+=======================================
+
+Data folder should be: C:\manips\reversal_BEBG\task\..\data\TEST
+Saving session data in: C:\manips\reversal_BEBG\task\..\data\TEST\reversal_20140331-1735_megpreop
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+Running in folder: C:\manips\reversal_BEBG\task\psychtoolbox
+
+flags = 
+
+             with_training: 1
+      with_response_lumina: 1
+       with_response_mouse: 0
+    with_response_keyboard: 1
+             with_triggers: 1
+           with_eyetracker: 0
+
+Running on machine: HPC3F9
+PARTICIPANT INFORMATION:
+
+            date: '20140331-1647'
+        hostname: 'HPC3F9'
+      identifier: 'TEST'
+         session: 2
+    session_name: 'megpreop'
+           flags: [1x1 struct]
+
+             with_training: 1
+      with_response_lumina: 1
+       with_response_mouse: 0
+    with_response_keyboard: 1
+             with_triggers: 1
+           with_eyetracker: 0
+            starting_block: 1
+
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+
+=======================================
+======= START OF THE EXPERIMENT =======
+=======================================
+
+
+flags = 
+
+             with_training: 1
+      with_response_lumina: 1
+       with_response_mouse: 0
+    with_response_keyboard: 1
+             with_triggers: 1
+           with_eyetracker: 0
+
+Data folder should be: C:\manips\reversal_BEBG\task\..\data\TEST
+Saving session data in: C:\manips\reversal_BEBG\task\..\data\TEST\reversal_20140331-1647_megpreop
